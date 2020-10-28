@@ -2,27 +2,26 @@
 <div>
     <h2>1. Mayuscula en primer letra de cada palabra</h2>
     <input matInput type="text" #myInput [(ngModel)] ="texto1">
-    <p>Texto original: </p>{{texto1}}
-    <p>Texto pipe: </p>{{texto1 | titlecase}}
-    {{texto1 | pipe1}}
+    <p>Texto original: {{texto1}}</p>
+    <p>Texto pipe: {{texto1 | titlecase}}</p>
 </div>
 <div>
     <h2>2. Texto basado en la fecha</h2>
     <input matInput type="date" #myInput [(ngModel)] ="fecha">
-    <p>Fecha original: </p>{{fecha | date: 'medium'}} 
-    <p>Texto pipe: </p>{{fecha | pipe2}}
+    <p>Fecha original: {{fecha | date: 'medium'}} </p> 
+    <p>Texto pipe: {{fecha | pipe2}}</p>
 </div>
 <div>
     <h2>3. Valor numerica elevado al cuadrado</h2>
     <input matInput type="number" #myInput [(ngModel)] ="numero">
-    <p>Numero original: </p>{{numero}}
-    <p>Numero pipe: </p>{{numero | pipe3}}
+    <p>Numero original: {{numero}} </p>
+    <p>Numero pipe: {{numero | pipe3}}</p>
 </div>
 <div>
     <h2>4. Texto alternadas entre mayusculas y minusculas</h2>
     <input matInput type="text" #myInput [(ngModel)] ="texto2">
-    <p>Texto original: </p>{{texto2}}
-    <p>Texto pipe: </p>{{texto2}}
+    <p>Texto original: {{texto2}}</p>
+    <p>Texto pipe: {{texto2 | pipe4}} </p>
 </div>
 
 
