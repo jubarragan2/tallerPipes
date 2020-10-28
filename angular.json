@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tallerPipes"
+    }
+  },
+  "defaultProject": "tallerPipes",
+  "cli": {
+    "analytics": "54c4645a-b053-4c3b-9183-4004cf248587"
+  }
 }

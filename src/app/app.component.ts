@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tallerPipes';
+  texto1: String;
+  texto2: String;
+  numero: number;
+  fecha: Date = new Date();
 }
